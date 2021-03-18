@@ -13,8 +13,15 @@ class Empleado(Persona):
         super().__init__(nombre, edad)
         self.sueldo = sueldo
     
+    def __str__(self):
+        return super().__str__() + "  Sueldo : "+str(self.sueldo)
+
 #creacion de un objeto
-persona = Persona("Jose Manuel",19)
+persona = Persona("Jose Manuel ",19 )
 #enviar impresion
 print(persona)
 
+#Creacion de un objeto
+empleado = Empleado("Maria Ines ", 18 , 15500.63)
+#Enviamos a impresion el nuevo objeto
+print(empleado)
