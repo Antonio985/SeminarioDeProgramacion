@@ -1,4 +1,5 @@
-#Crear metodos
+#Crear metodos para operaciones aritmeticas
+#en modulo aritmetica
 def sumar(a,b):
     return a+b
 def restar(a,b):

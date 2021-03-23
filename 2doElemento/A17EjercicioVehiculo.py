@@ -30,6 +30,3 @@ carro = Vehiculo("Rojo ",4 )
 print(carro)
 
 #Creacion de un objeto
-empleado = Empleado("Maria Ines ", 18 , 15500.63)
-#Enviamos a impresion el nuevo objeto
-print(empleado)

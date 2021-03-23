@@ -13,7 +13,7 @@ class Persona:
 
     #Metodo get
     def get__edad(self):
-        return self.get__edad
+        return self.__edad
     #Metodo set
     def set__edad(self, edad):
         self.__edad = edad
