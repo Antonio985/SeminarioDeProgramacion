@@ -3,12 +3,12 @@
 #from Modulo_Persona import Persona 
 #import modulos.modulo_persona import Persona
 from figura_geometrica import FiguraGeometrica
-import ColorF as colorf
+from colorf import ColorF
 
-class Cuadrado(FiguraGeometrica, Color):
-    def __init__(self,lado, color):
+class Cuadrado(FiguraGeometrica, ColorF):
+    def __init__(self,lado , colorf):
         FiguraGeometrica.__init__(self, lado, lado)
-        ColorF.__init__(self, color)
+        ColorF.__init__(self, colorf)
 
     def area(self):
         return self.alto * self.ancho

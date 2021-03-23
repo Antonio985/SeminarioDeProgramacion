@@ -1,9 +1,9 @@
 #importamos la clase
-from Cuadrado import Cuadrado
+from cuadrado import Cuadrado
 
 #Creamos un objeto
-cuadrado = Cuadrado(5, "Verde")
+cuadrado = Cuadrado(5, "Amarillo")
 
 #enviamos a imprimir
 print(cuadrado.area())
-print(cuadrado.color)
+print(cuadrado.colorf)
