@@ -6,7 +6,7 @@ class  Empleado:
     
     #enviamos a impresion
     def __str__(self):
-        return "Nombre : "+ self.nombre + " "+ self.sueldo
+        return "Nombre : "+ self.nombre + " "+ str(self.sueldo)
 
 
         
