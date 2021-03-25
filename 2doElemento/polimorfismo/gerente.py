@@ -7,4 +7,4 @@ class Gerente(Empleado):
     
     #mandamos a impresion
     def __str__(self):
-        return super().__str__() + "Departamento : "+ self.departamento
+        return super().__str__() + "  Departamento : "+ self.departamento
